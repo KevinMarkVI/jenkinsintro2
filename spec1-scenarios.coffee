@@ -1,5 +1,5 @@
 ((jasmine, driver) ->
-    helpers = require('helpers.coffee')
+    helpers = require('./helpers.coffee')
     
     timeout = helpers.defaultTimeout
     ipAddress = process.env.IP_ADDRESS
